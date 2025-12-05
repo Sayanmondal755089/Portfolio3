@@ -64,7 +64,7 @@ export default function Navbar() {
               color: "var(--accent)",
             }}
           >
-            KD
+            SM
           </motion.div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <h1 style={{ margin: 0, fontSize: 14 }}>Sayan Mondal</h1>
