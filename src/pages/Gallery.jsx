@@ -8,13 +8,13 @@ const IMAGES = {
     {
       id: 1,
       caption: "Digha Beach 🌲🌫️",
-      photos: ["public/gallery/sayan1.jpg", "public/gallery/sayan1.jpg"],
+      photos: ["/sayan1.jpg", "/sayan1.jpg"],
     },
     {
       id: 2,
       caption:
         "College Life.",
-      photos: ["public/gallery/Personal.jpg", "public/gallery/newphoto.jpg"],
+      photos: ["/Personal.jpg", "/newphoto.jpg"],
     },
   ],
   projects: [
@@ -22,26 +22,26 @@ const IMAGES = {
       id: 1,
       caption:
         "SGC Movie Downloder ",
-      photos: ["public/gallery/SGCmovie.png", "public/gallery/SG2.jpg"],
+      photos: ["/SGCmovie.png", "/SG2.jpg"],
     },
     
     {
       id: 1,
       caption:
         "Personal Finance App",
-      photos: ["/gallery/profilex.jpeg", "/gallery/profilex2.jpeg","/gallery/profilex3.jpeg", "/gallery/profilex4.jpeg"],
+      photos: ["/profilex.jpeg", "/profilex2.jpeg","/profilex3.jpeg", "/profilex4.jpeg"],
     },
   ],
   achievements: [
     {
       id: 1,
       caption: "Solved LeetCode questions 🏆!",
-      photos: ["public/gallery/leetcode.png"],
+      photos: ["/leetcode.png"],
     },
     {
       id: 2,
       caption: "School Topper🤖",
-      photos: ["public/gallery/Topper.jpg"],
+      photos: ["/Topper.jpg"],
     },
   ],
 };
