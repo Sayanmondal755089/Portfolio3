@@ -9,7 +9,7 @@ import Blog from './pages/Blog'
 import Resume from './pages/Resume'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import NotFound from './pages/NotFound'
+import NotFound from './pages/NotFound.jsx'
 import SkillNetwork from './pages/Skills'
 import './App.css'  
 
