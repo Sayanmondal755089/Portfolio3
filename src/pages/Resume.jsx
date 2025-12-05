@@ -231,7 +231,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="public/resume.pdf"
+            src="/resume.pdf"
             title="Sayan Mondal Resume"
             style={{
               width: "100%",
@@ -244,7 +244,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="public/resume.pdf"
+          href="/resume.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
