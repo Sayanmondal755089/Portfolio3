@@ -120,6 +120,8 @@ export default function Gallery() {
       </motion.h2>
 
       {/* 🧭 Tabs */}
+      caption: "This is my Some Photos ",
+      
       <motion.div className="tab-buttons" variants={childVariants}>
         {["personal", "projects", "achievements"].map((type) => (
           <motion.button
