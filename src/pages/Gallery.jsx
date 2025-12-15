@@ -8,13 +8,19 @@ const IMAGES = {
     {
       id: 1,
       caption: "Digha Beach 🌲🌫️",
-      photos: ["/sayan1.jpg", "/sayan1.jpg"],
+      photos: ["/sayan1.jpg", "/photo4.jpg"],
     },
     {
       id: 2,
       caption:
         "College Life.",
-      photos: ["/Personal.jpg", "/newphoto.jpg"],
+      photos: ["/Personal.jpg", "/photo3.jpg"],
+    },
+    {
+      id: 3,
+      caption:
+        "Photos.",
+      photos: ["/photo5.jpg", "/photo6.jpg"],
     },
   ],
   projects: [
