@@ -14,7 +14,7 @@ const IMAGES = {
       id: 2,
       caption:
         "College Life.",
-      photos: ["/Personal.jpg", "/photo3.jpg"],
+      photos: ["/Personal.jpg", "/photo3.jpg","/photo7.jpg","photo8.jpg"],
     },
     {
       id: 3,
@@ -120,7 +120,6 @@ export default function Gallery() {
       </motion.h2>
 
       {/* 🧭 Tabs */}
-      caption: "This is my Some Photos ",
       
       <motion.div className="tab-buttons" variants={childVariants}>
         {["personal", "projects", "achievements"].map((type) => (
