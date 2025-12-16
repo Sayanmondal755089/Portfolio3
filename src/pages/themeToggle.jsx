@@ -1,20 +1,24 @@
 import React, { useState, useEffect } from "react";
-import './themeToggle.css';
+import './themeToggle.css';  // Import CSS for styling
 
 export default function ThemeToggle() {
   const [darkMode, setDarkMode] = useState(false);
 
+  // Load saved theme on first render
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme === "dark") {
       setDarkMode(true);
       document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
     }
   }, []);
 
-  const ToggleTheme = () => {
-    setDarkMode((prev) => {
-      const newMode = !prev;
+  // Toggle theme
+  const toggleTheme = () => {
+    setDarkMode((prevMode) => {
+      const newMode = !prevMode;
 
       if (newMode) {
         document.body.classList.add("dark");
@@ -29,7 +33,12 @@ export default function ThemeToggle() {
   };
 
   return (
-    <button className="theme-btn" onClick={Themetoggle}>
+    <button
+      type="button"
+      className="theme-btn"
+      onClick={toggleTheme}
+      aria-label="Toggle dark mode"
+    >
       {darkMode ? "☀ Light Mode" : "🌙 Dark Mode"}
     </button>
   );
