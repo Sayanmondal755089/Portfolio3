@@ -36,6 +36,8 @@ export default function Navbar() {
     <>
       {/* --- Navbar --- */}
       <nav
+        {/* Theme toggle button */}
+      <themeToggle />
         ref={navRef}
         style={{
           position: "sticky",
