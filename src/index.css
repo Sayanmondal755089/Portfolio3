@@ -222,3 +222,14 @@ form h3 { color: #eee; font-weight: 600; margin-bottom: 12px }
   transition: all 0.3s ease;
 }
 .btn:hover { background: linear-gradient(90deg, #004c99, #0066cc); transform: translateY(-2px) }
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.theme-btn {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 1000;
+  }
