@@ -112,6 +112,7 @@ export default function Home() {
               { label: '📧 Contact', value: 'sanynmandal@gmail.com' },
               { label: '🎓 College', value: 'Pondicherry University' },
               { label: '📚 Branch', value: 'Computer Science & Business System' },
+              { label: '🗣️ Language', value: 'English,Bengali ,Hindi ' },
             ].map((info, i) => (
               <motion.div key={i} whileHover={{ y: -4, scale: 1.05 }} transition={{ type: 'spring', stiffness: 250 }} className="info-card">
                 <strong>{info.label}</strong>
