@@ -23,6 +23,7 @@ export default function App() {
       <main style={{ flex: 1 }}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/" element={<themeToggle />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/skills" element={<SkillNetwork />} />
