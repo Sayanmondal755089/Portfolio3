@@ -11,11 +11,15 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound.jsx'
 import SkillNetwork from './pages/Skills'
+import ThemeToggle from './pages/themeToggle.jsk'
 
 export default function App() {
   return (
     <div className="app">
       <Navbar />
+      {/* Theme toggle button */}
+      <ThemeToggle />
+      
       <main style={{ flex: 1 }}>
         <Routes>
           <Route path="/" element={<Home />} />
