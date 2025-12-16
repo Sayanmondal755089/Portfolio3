@@ -11,7 +11,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound.jsx'
 import SkillNetwork from './pages/Skills'
-import ThemeToggle from './pages/themeToggle.jsk'
+import themeToggle from './pages/themeToggle.jsk'
 
 export default function App() {
   return (
