@@ -11,7 +11,7 @@ export default function ThemeToggle() {
     }
   }, []);
 
-  const toggleTheme = () => {
+  const ToggleTheme = () => {
     setDarkMode((prev) => {
       const newMode = !prev;
 
