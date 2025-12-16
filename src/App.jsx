@@ -11,19 +11,18 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound.jsx'
 import SkillNetwork from './pages/Skills'
-import ThemeToggle from './pages/themeToggle'
+import themeToggle from './pages/themeToggle.jsk'
 
 export default function App() {
   return (
     <div className="app">
       <Navbar />
       {/* Theme toggle button */}
-      <ThemeToggle />
+      <themeToggle />
       
       <main style={{ flex: 1 }}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<themeToggle />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/skills" element={<SkillNetwork />} />
