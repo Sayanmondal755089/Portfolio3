@@ -110,8 +110,8 @@ export default function Home() {
               { label: '📍 Location', value: 'Kalapet, Puducherry, India' },
               { label: '💼 Expertise', value: 'AI/ML, Problem Solving' },
               { label: '📧 Contact', value: 'sanynmandal@gmail.com' },
-              { label: '🎓 College, value: 'Pondicherry University' },
-              { label: '📚 Branch, value: 'Computer Science & Business System' },
+              { label: '🎓 College', value: 'Pondicherry University' },
+              { label: '📚 Branch', value: 'Computer Science & Business System' },
             ].map((info, i) => (
               <motion.div key={i} whileHover={{ y: -4, scale: 1.05 }} transition={{ type: 'spring', stiffness: 250 }} className="info-card">
                 <strong>{info.label}</strong>
