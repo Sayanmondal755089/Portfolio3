@@ -143,7 +143,7 @@ const AboutMe = () => {
                   Tamil Nadu
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  1st Year (Pursuing) | GPA:
+                  1st Year (Pursuing) | CGPA: 8.4
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>2025 – 2029</p>
               </div>
