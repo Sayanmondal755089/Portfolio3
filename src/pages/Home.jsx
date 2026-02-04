@@ -113,6 +113,7 @@ export default function Home() {
               { label: '🎓 College', value: 'Pondicherry University' },
               { label: '📚 Branch', value: 'Computer Science & Business System' },
               { label: '🗣️ Language', value: 'English,Bengali ,Hindi ' },
+              { label: ' CGPA', value: '8.4 ' },
             ].map((info, i) => (
               <motion.div key={i} whileHover={{ y: -4, scale: 1.05 }} transition={{ type: 'spring', stiffness: 250 }} className="info-card">
                 <strong>{info.label}</strong>
