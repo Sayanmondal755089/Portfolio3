@@ -35,24 +35,24 @@ export default function Navbar() {
   return (
     <>
       {/* --- Navbar --- */}
-      <nav
-        {/* Theme toggle button */}
-      <themeToggle />
-        ref={navRef}
-        style={{
-          position: "sticky",
-          top: 0,
-          zIndex: 100,
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "1rem 2rem",
-          borderBottom: "1px solid rgba(255,255,255,0.1)",
-          background: "rgba(0,0,0,0.6)",
-          backdropFilter: "blur(10px)",
-          fontFamily: "inherit",
-        }}
-      >
+      {/* --- Navbar --- */}
+<nav
+  ref={navRef}
+  style={{
+    position: "sticky",
+    top: 0,
+    zIndex: 100,
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "1rem 2rem",
+    borderBottom: "1px solid rgba(255,255,255,0.1)",
+    background: "rgba(0,0,0,0.6)",
+    backdropFilter: "blur(10px)",
+    fontFamily: "inherit",
+  }}
+>
+
         {/* Logo */}
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <motion.div
@@ -71,7 +71,7 @@ export default function Navbar() {
           <div style={{ display: "flex", flexDirection: "column" }}>
             <h1 style={{ margin: 0, fontSize: 14 }}>Sayan Mondal</h1>
             <div style={{ fontSize: 12, color: "var(--muted)" }}>
-              ML • AI • Developer
+              AI • ML • Developer
             </div>
           </div>
         </div>
