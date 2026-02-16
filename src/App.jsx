@@ -33,7 +33,7 @@ export default function App() {
           <Route path="/about" element={<About />} /> {/* ✅ fixed lowercase */}
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/journey" element={<SemesterTimeline />} />
+          <Route path="/SemesterTimeline" element={<SemesterTimeline />} />
 
         </Routes>
       </main>
