@@ -107,7 +107,7 @@ export default function Resume() {
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
               <strong>B.Tech in Computer Science and Business System </strong> —Pondicherry University, 2025–2029 <br />
-              <span style={{ color: "#aaa" }}>GPA:</span>
+              <span style={{ color: "#aaa" }}> CGPA : 8.4 </span>
             </li>
             <li style={{ marginTop: 8 }}>
               <strong>Rampurhat High School</strong> ( West BengalBoard, 2025) <br />
