@@ -34,7 +34,6 @@ export default function Navbar() {
 
  return (
   <>
-    {/* --- Navbar --- */}
     <nav
       ref={navRef}
       style={{
