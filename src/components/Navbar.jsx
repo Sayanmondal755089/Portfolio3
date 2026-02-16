@@ -32,26 +32,25 @@ export default function Navbar() {
     return () => window.removeEventListener("resize", checkOverflow);
   }, []);
 
-  return (
-    <>
-      {/* --- Navbar --- */}
-      {/* --- Navbar --- */}
-<nav
-  ref={navRef}
-  style={{
-    position: "sticky",
-    top: 0,
-    zIndex: 100,
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "1rem 2rem",
-    borderBottom: "1px solid rgba(255,255,255,0.1)",
-    background: "rgba(0,0,0,0.6)",
-    backdropFilter: "blur(10px)",
-    fontFamily: "inherit",
-  }}
->
+ return (
+  <>
+    {/* --- Navbar --- */}
+    <nav
+      ref={navRef}
+      style={{
+        position: "sticky",
+        top: 0,
+        zIndex: 100,
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "1rem 2rem",
+        borderBottom: "1px solid rgba(255,255,255,0.1)",
+        background: "rgba(0,0,0,0.6)",
+        backdropFilter: "blur(10px)",
+        fontFamily: "inherit",
+      }}
+    >
 
         {/* Logo */}
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
