@@ -12,6 +12,7 @@ const links = [
   { label: "Resume", to: "/resume" },
   { label: "About Me", to: "/about" },
   { label: "Contact", to: "/contact" },
+  { label: "Semester", to: "/SemesterTimeline" }
 ];
 
 export default function Navbar() {
