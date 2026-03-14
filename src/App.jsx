@@ -40,6 +40,7 @@ export default function App() {
       </main>
       <footer className="footer">
         © {new Date().getFullYear()} Sayan Mondal — Built with React
+        <VisitorCounter />
       </footer>
     </div>
   )
