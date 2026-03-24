@@ -36,21 +36,14 @@ const PROJECTS = [
   code: 'https://github.com/Sayanmondal755089/SayanPortfolio'
   },
   {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
+    title: '💬 Code Chat – Claude AI Chatbot',
+    desc: 'CodeChat — a fully functional AI-powered coding assistant.',
+    ss: '/codechat.png',
+    tech: ['Claude API', 'LangChain', 'Python', 'Streamlit'],
     live: '',
-    code: 'https://github.com/Sayanmondal755089/Docuchat-Chatbot'
+    code: 'https://github.com/Sayanmondal755089/codechat-Chatbot'
   },
-  {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: '#',
-    code: 'https://github.com/Sayanmondal755089/ProfileX'
-  },
+ 
  {
   title: "Open Source Contributions",
   desc: "Contributed to open-source projects involving machine learning and data-driven solutions. Worked on model building, performance optimization, and data preprocessing using industry-standard tools.",
